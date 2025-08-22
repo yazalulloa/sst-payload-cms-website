@@ -29,10 +29,6 @@ new sst.aws.Nextjs("PayloadCmsWebsite", {
     secret.tursoUrl,
     secret.tursoToken,
   ],
-  server: {
-    // install: ["sharp"], // DOES NOT WORK
-    // layers: ["arn:aws:lambda:us-east-1:905418377819:layer:sharp-lambda-x64:1"],
-  },
   transform: {
     server: {
       timeout: "60 seconds",
